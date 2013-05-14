@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="span12">
-            <h3>Накладная #123801</h3>
+            <h3>Заказ #123801</h3>
         </div>
     </div>
 
@@ -99,17 +99,32 @@
                     <td class="text-right">1050 грн</td>
                 </tr>
                 <tr>
+                    <td>
+                        <p>Введите новую позицию товара:</p>
+                        <input type="text" class="input-xxlarge" placeholder="Одно из называний выше"
+                               data-provide="typeahead" data-items="4"
+                               data-source="[&quot;Кирпич рядовой М-100&quot;,&quot;Плита Kronospan s.r.o. QSB 2500x1045x6 мм&quot;,&quot;Фанера ФСФ 2500x1250x10 мм&quot;,&quot;ДВП 2440х1220х2.5 мм&quot;,&quot;ДВП 2440х1220х2.5 мм&quot;,&quot;Доска обрезная 40x150x4000 мм&quot;,&quot;Брус строительный 50x50x4000 мм&quot;]">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
                     <td colspan="3"><strong>Итого</strong></td>
                     <td class="text-right"><strong>5034 грн</strong></td>
                 </tr>
                 </tbody>
             </table>
-            <button class="btn">Печать накладной</button>
-            <button class="btn btn-danger pull-right">Отменить заказ</button>
+            <p>
+                <button class="btn">Создать заказ</button>
+                <button class="btn btn-danger pull-right">Отменить</button>
+            </p>
         </div>
     </div>
 </div>
 
+<script src="http://code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 </body>
 </html>
