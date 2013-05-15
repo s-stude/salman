@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/united/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/overrides.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="#">Сэлмэн</a>
+            <ul class="nav">
+                <li class="active"><a href="#">Продажи</a></li>
+                <li><a href="#">Склад</a></li>
+                <li><a href="#">Контрагенты</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h3>Заказ #123801</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <ul class="breadcrumb">
+                <li><a href="#">Клиенты</a> <span class="divider">/</span></li>
+                <li><a href="#">Предприниматели</a> <span class="divider">/</span></li>
+                <li class="active">ЧП. Петров И.В.</li>
+                <li class="pull-right">Склад: Основной</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <table class="table table-striped table-condensed table-hover">
+                <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th class="text-right">Цена за единицу (грн.)</th>
+                    <th class="text-right">Количество</th>
+                    <th class="text-right">Цена за всё</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Кирпич рядовой М-100</td>
+                    <td class="text-right">1.20 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="10">
+                    </td>
+                    <td class="text-right">12 грн.</td>
+                </tr>
+                <tr>
+                    <td>Плита Kronospan s.r.o. QSB 2500x1045x6 мм</td>
+                    <td class="text-right">60.00 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="5">
+                    </td>
+                    <td class="text-right">300 грн</td>
+                </tr>
+                <tr>
+                    <td>Фанера ФСФ 2500x1250x10 мм</td>
+                    <td class="text-right">234 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="8">
+                    </td>
+                    <td class="text-right">1872 грн</td>
+                </tr>
+                <tr>
+                    <td>ДВП 2440х1220х2.5 мм</td>
+                    <td class="text-right">36 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="20">
+                    </td>
+                    <td class="text-right">720 грн.</td>
+                </tr>
+                <tr>
+                    <td>Доска обрезная 40x150x4000 мм</td>
+                    <td class="text-right">36 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="30">
+                    </td>
+                    <td class="text-right">1080 грн</td>
+                </tr>
+                <tr>
+                    <td>Брус строительный 50x50x4000 мм</td>
+                    <td class="text-right">21 грн</td>
+                    <td class="text-right">
+                        <input class="input-mini" type="number" value="50">
+                    </td>
+                    <td class="text-right">1050 грн</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Введите новую позицию товара:</p>
+                        <input type="text" class="input-xxlarge" placeholder="Одно из называний выше"
+                               data-provide="typeahead" data-items="4"
+                               data-source="[&quot;Кирпич рядовой М-100&quot;,&quot;Плита Kronospan s.r.o. QSB 2500x1045x6 мм&quot;,&quot;Фанера ФСФ 2500x1250x10 мм&quot;,&quot;ДВП 2440х1220х2.5 мм&quot;,&quot;ДВП 2440х1220х2.5 мм&quot;,&quot;Доска обрезная 40x150x4000 мм&quot;,&quot;Брус строительный 50x50x4000 мм&quot;]">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Итого</strong></td>
+                    <td class="text-right"><strong>5034 грн</strong></td>
+                </tr>
+                </tbody>
+            </table>
+            <p>
+                <button class="btn">Создать заказ</button>
+                <button class="btn btn-danger pull-right">Отменить</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+</body>
+</html>
