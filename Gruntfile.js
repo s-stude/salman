@@ -36,12 +36,12 @@ module.exports = function (grunt) {
                 files:[
                     {src:['assets/css/**/*.css'], dest:'<%= vars.destdir %>/'},
                     {src:['assets/js/*'], dest:'<%= vars.destdir %>/'},
-                    {src:['index.html'], dest:'<%= vars.destdir %>/'}
+                    {src:['*.html'], dest:'<%= vars.destdir %>/'}
                 ]
             }
         },
         watch:{
-            files:['<%= jshint.gruntfile %>','<%= jshint.appjs %>', 'index.html'],
+            files:['<%= jshint.gruntfile %>','<%= jshint.appjs %>', '*.html'],
             tasks:['copy'] // 'concat', 'copy'
         },
         connect:{
