@@ -35,6 +35,7 @@ module.exports = function (grunt) {
             main:{
                 files:[
                     {src:['assets/css/**/*.css'], dest:'<%= vars.destdir %>/'},
+                    {src:['assets/css/img/**/*.*'], dest:'<%= vars.destdir %>/'},
                     {src:['assets/js/*'], dest:'<%= vars.destdir %>/'},
                     {src:['*.html'], dest:'<%= vars.destdir %>/'}
                 ]
