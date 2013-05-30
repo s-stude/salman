@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/united/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/overrides.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="/">Сэлмэн</a>
+            <ul class="nav">
+                <li><a href="sales.html">История продаж</a></li>
+                <li class="active"><a href="products.html">Товары</a></li>
+                <li><a href="warehouse.html">Склад</a></li>
+                <li><a href="agents.html">Контрагенты</a></li>
+            </ul>
+        </div>
+    </div>
+<div class="row">
+    <div class="span12">
+        <h3>Новый товар</h3>
+
+        <form class="form-horizontal" action="">
+            <div class="control-group">
+                <label class="control-label" for="title">Название</label>
+
+                <div class="controls">
+                    <input type="text" id="title">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Единица измерения</label>
+
+                <div class="controls">
+                    <select name="" id="">
+                        <option value="kg">Килограмм</option>
+                        <option value="item">Штука</option>
+                        <option value="pack">Упаковка</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="itemcount">Количество</label>
+
+                <div class="controls">
+                    <input type="number" id="itemcount">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="itemprice">Цена за единицу</label>
+
+                <div class="controls">
+                    <input type="text" id="itemprice">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Склад</label>
+
+                <div class="controls">
+                    <select name="" id="">
+                        <option value="mainwarehouse">Главный склад</option>
+                        <option value="slavewarehouse">Склад №2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                    <a href="#">Очистить форму</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+</body>
+</html>
